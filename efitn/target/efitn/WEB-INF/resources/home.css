@@ -1,0 +1,55 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+.full-bar{
+  margin-bottom:80px;
+}
+a,a:hover{color:white;text-decoration:none;}
+.full-wrapp{
+  transition: width .5s;
+}
+.menu{
+  margin:auto;
+  top:0;
+  color:#0072ff;
+  background-color:#282c37;
+
+}
+
+.nav{
+  width:24%;
+  padding: 20px;
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+  border-bottom:solid 2px #282c37;
+}
+.nav:hover{
+  border-bottom:solid 2px white;
+   transition:  .5s;
+}
+.intro{
+  background:url('http://hdwallpaperbackgrounds.net/wp-content/uploads/2016/07/white-background-4.jpg');
+  height:auto;
+  margin-top:0px;
+  padding-top:20px;
+  padding-bottom:135px;
+  margin-bottom:10px;
+}
+
+.pp img{
+  width:250px;
+  border:solid 3px rgba(0,0,0,0.8);
+}
+.title{
+  width:150px;
+  font-family:"Roboto", sans-serif;
+  border-bottom: solid;
+}
+
+
+body {
+  background: -webkit-linear-gradient(right, #00BFFF, #FF69B4);
+  background: -moz-linear-gradient(right, #00BFFF, #FF69B4);
+  background: linear-gradient(to left, #00BFFF, #FF69B4);
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;      
+}

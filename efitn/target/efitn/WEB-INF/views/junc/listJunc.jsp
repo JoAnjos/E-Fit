@@ -7,7 +7,7 @@
 <head>
 	<meta charset="UTF-8">
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <title>Lista de Usuário</title>
+    <title>Lista dos </title>
     <spring:url var="css" value="/static/css/bootstrap.css"/>
     <link type="text/css" rel="stylesheet" href="${css }"/>
 </head>
@@ -64,18 +64,12 @@
                         <a class="btn btn-info" href="${update }" >Editar</a>
                         <spring:url value="/usuario/delete/${usuario.id_user }" var="delete"/>
                         <a class="btn btn-danger" href="${delete }" >Excluir</a>
-                        <spring:url value="/usuario/listJunc" var="listJunc"/>
-    					<a class="btn btn-default" href="${listJunc }">Listar</a>
-
-                        
                     </td>
                 </tr>
             </c:forEach>
             </tbody>
         </table>
     </div>
-       	<spring:url value="/usuario/home" var="home"/>
-    	<a class="btn btn-default" href="${home }">Sair</a>
     <hr>
     <footer class="footer">
         <p>&copy; 2018</p>

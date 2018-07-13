@@ -36,9 +36,21 @@ public class UsuarioController {
 		return "redirect:/exercicio/todos";
 	}
 	
+	
 	@GetMapping("/cadastro")
 	public String cadastro(@ModelAttribute("usuario") Usuario usuario, ModelMap model) {
 		return "/user/addUser";
+	}
+	
+	
+	@GetMapping("/home")
+	public String home(@ModelAttribute("usuario") Usuario usuario, ModelMap model) {
+		return "/user/home";
+	}
+	
+	@GetMapping("/listJunc")
+	public String listJunc(@ModelAttribute("usuario") Usuario usuario, ModelMap model) {
+		return "/user/listJunc";
 	}
 	
 	@PostMapping("/save")

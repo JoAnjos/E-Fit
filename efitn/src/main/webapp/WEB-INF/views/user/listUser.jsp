@@ -64,12 +64,18 @@
                         <a class="btn btn-info" href="${update }" >Editar</a>
                         <spring:url value="/usuario/delete/${usuario.id_user }" var="delete"/>
                         <a class="btn btn-danger" href="${delete }" >Excluir</a>
+                        <spring:url value="/usuario/listJunc" var="listJunc"/>
+    					<a class="btn btn-default" href="${listJunc }">Listar</a>
+
+                        
                     </td>
                 </tr>
             </c:forEach>
             </tbody>
         </table>
     </div>
+       	<spring:url value="/usuario/home" var="home"/>
+    	<a class="btn btn-default" href="${home }">Sair</a>
     <hr>
     <footer class="footer">
         <p>&copy; 2018</p>
